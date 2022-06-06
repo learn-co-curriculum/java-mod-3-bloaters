@@ -51,7 +51,7 @@ double ageInDecimalYears = calculateAge(birthYear, birthMonthIndex, birthDay);
 doSomethingWithPerson(birthYear, birthMonthIndex, birthDay, ageInDecimalyears);
 ```
 
-The probme is that because all these primitives aren't captured together in a
+The problem is that because all these primitives aren't captured together in a
 single data structure, you will have to calculate the person's age every time
 you need to do something with it (a person's age changes with time, so I can't
 even rely on calculating this value once and using it over and over again), and
